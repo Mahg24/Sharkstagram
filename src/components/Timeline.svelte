@@ -8,3 +8,11 @@
 		<Card {icons} />
 	</div>
 </div>
+
+<style>
+	.Timeline {
+		width: 100%;
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+</style>
