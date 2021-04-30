@@ -6,6 +6,15 @@
 <div class="Timeline">
   <div class="Timeline-container">
     <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
+    <Card {icons} />
   </div>
 </div>
 

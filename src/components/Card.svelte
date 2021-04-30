@@ -17,7 +17,7 @@
       <img src="public/assets/img/shark.jpg" alt="" />
     </div>
     <div class="Card-icons">
-      <img src="public/assets/icons/{icons.Home}.svg" alt="" />
+      <img src="public/assets/icons/{icons.Comment}.svg" alt="" />
       <img src="public/assets/icons/{icons.Send}.svg" alt="" />
       <img src="public/assets/icons/{icons.Like}.svg" alt="" />
     </div>
@@ -36,6 +36,9 @@
     display: flex;
     padding: 10px;
     margin: 15px auto;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.34);
+-moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.34);
+box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.34);
   }
   .Card-user {
     display: flex;

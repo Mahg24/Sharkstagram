@@ -3,6 +3,7 @@
   import Main from "../components/Main.svelte";
   import Timeline from "../components/Timeline.svelte";
   import Sidebar from "../components/Sidebar.svelte";
+  import Status from  "../components/Status.svelte";
   let homeIcon = "home";
   let sendIcon = "send";
   let heartIcon = "like";
@@ -30,6 +31,7 @@
 </script>
 
 <Header {icons} />
+<Status />
 <Main>
   <Timeline {icons} />
   <Sidebar />

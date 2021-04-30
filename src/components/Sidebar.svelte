@@ -11,3 +11,12 @@
 		<Footer />
 	</div>
 </div>
+
+<style>
+	.Sidebar-container
+	{
+	position: fixed;
+    top: 90px;
+    right: 280px;
+	}
+</style>
