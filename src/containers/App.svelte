@@ -14,19 +14,40 @@
     Like: heartIcon,
     Comment: commentIcon,
     Modyfier: handlelogos,
+    onHover:onHover,
+    onLeave:onLeave
   };
+  function onHover(item) 
+  {
+    if (!icons[item].includes("-active")) {
+      icons[item] += "-active";
+    }else
+    {
+      icons[item]=icons[item].replace("-active","");
+    }
+      
+      // icons.Home += "-active";
+      // icons.Send += "-active";
+      // icons.Like += "-active";
+      // icons.Comment += "-active";
+  }
+  function onLeave(item)
+  {
+    icons[item].replace("-active","");
+  }
   function handlelogos() {
     if (document.querySelector("#logos").checked) {
-      icons.Home += "-sea-active";
-      icons.Send += "-sea-active";
-      icons.Like += "-sea-active";
-      icons.Comment += "-sea-active";
+      icons.Home += "-sea";
+      icons.Send += "-sea";
+      icons.Like += "-sea";
+      icons.Comment += "-sea";
     } else {
       icons.Home = "home";
       icons.Send = "send";
       icons.Like = "like";
       icons.Comment = "comment";
     }
+    
   }
 </script>
 
