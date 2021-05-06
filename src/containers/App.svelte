@@ -14,27 +14,7 @@
     Like: heartIcon,
     Comment: commentIcon,
     Modyfier: handlelogos,
-    onHover:onHover,
-    onLeave:onLeave
   };
-  function onHover(item) 
-  {
-    if (!icons[item].includes("-active")) {
-      icons[item] += "-active";
-    }else
-    {
-      icons[item]=icons[item].replace("-active","");
-    }
-      
-      // icons.Home += "-active";
-      // icons.Send += "-active";
-      // icons.Like += "-active";
-      // icons.Comment += "-active";
-  }
-  function onLeave(item)
-  {
-    icons[item].replace("-active","");
-  }
   function handlelogos() {
     if (document.querySelector("#logos").checked) {
       icons.Home += "-sea";
@@ -59,9 +39,54 @@
 </Main>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700;1,900&display=swap');
+
+  :global(.cursor-pointer)
+  {
+    cursor: pointer;
+  }
+  :global(.icons-home:hover)
+  {
+    content:url("public/assets/icons/home-active.svg")
+  }
+  :global(.icons-send:hover)
+  {
+    content:url("public/assets/icons/send-active.svg")
+  }
+  :global(.icons-like:hover)
+  {
+    content:url("public/assets/icons/like-active.svg")
+  }
+  :global(.icons-comment:hover)
+  {
+    content:url("public/assets/icons/comment-active.svg")
+  }
+  
+/* asdasdasd */
+
+:global(.icons-home-sea:hover)
+  {
+    content:url("public/assets/icons/home-sea-active.svg")
+  }
+  :global(.icons-send-sea:hover)
+  {
+    content:url("public/assets/icons/send-sea-active.svg")
+  }
+  :global(.icons-like-sea:hover)
+  {
+    content:url("public/assets/icons/like-sea-active.svg")
+  }
+  :global(.icons-comment-sea:hover)
+  {
+    content:url("public/assets/icons/comment-sea-active.svg")
+  }
+
+/* aasdasdda */
+
   :global(html) {
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
   }
   :global(body) {
     background-color: #6daebb;

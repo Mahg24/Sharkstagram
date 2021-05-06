@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="Profile-info">
-    <h2>gndx</h2>
+    <h2>@Møhg</h2>
     <span>Mahg</span>
   </div>
 </div>

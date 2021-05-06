@@ -20,9 +20,9 @@
 			</div>
 			<div class="Header-nav">
 				<ul>
-					<li><img src="public/assets/icons/{icons.Home}.svg" alt="" /></li>
-					<li><img src="public/assets/icons/{icons.Send}.svg" alt="" /></li>
-					<li><img src="public/assets/icons/{icons.Like}.svg" alt="" /></li>
+					<li><img src="public/assets/icons/{icons.Home}.svg" class="icons-{icons.Home} cursor-pointer" alt="icons-{icons.Home}" /></li>
+					<li><img src="public/assets/icons/{icons.Send}.svg" class="icons-{icons.Send} cursor-pointer" alt="icons-{icons.Send}" /></li>
+					<li><img src="public/assets/icons/{icons.Like}.svg" class="icons-{icons.Like} cursor-pointer" alt="icons-{icons.Like}" /></li>
 				</ul>
 			</div>
 		</div>
